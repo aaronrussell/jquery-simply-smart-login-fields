@@ -1,6 +1,6 @@
 /*
 * jQuery Smart Ass Login Values plugin
-* Default values to login forms' username and password fields
+* Provides default values to login forms' username and password fields
 * 
 * @version  0.1
 * @homepage http://github.com/aaronrussell/jquery-smart-ass-login-values/
@@ -19,7 +19,7 @@
       usernameSelecter: 'input[name="username"]',
       passwordSelecter: 'input[name="password"]',
       usernameValue:    'Username...',
-      passwordValue:    'Password...',
+      passwordValue:    'Password...'
     }, options);
     
     var username = this.find(options.usernameSelecter);
