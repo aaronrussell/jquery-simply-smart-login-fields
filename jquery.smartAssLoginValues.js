@@ -16,8 +16,8 @@
   $.fn.smartAssLoginValues = function(options){
     
     options = $.extend({
-      usernameSelecter: 'input[name="username"]',
-      passwordSelecter: 'input[name="password"]',
+      usernameSelector: 'input[name="username"]',
+      passwordSelector: 'input[name="password"]',
       usernameValue:    'Username...',
       passwordValue:    'Password...'
     }, options);

@@ -10,21 +10,21 @@ jQuery plugin that provides default values to login forms' username and password
 
 Simple usage:
 
-    $('#my_textarea').simplyCountable();
+    $('#my_textarea').smartAssLoginValues();
 
 Advanced usage:
 
-    $('#my_textarea').simplyCountable({
-        usernameSelecter: 'input[name="username"]',
-        passwordSelecter: 'input[name="password"]',
+    $('#my_textarea').smartAssLoginValues({
+        usernameSelector: 'input[name="username"]',
+        passwordSelector: 'input[name="password"]',
         usernameValue:    'Username...',
         passwordValue:    'Password...'
     });
 
 ## Options
 
-* `usernameSelecter` - A jQuery selector to match the username field. Defaults to `input[name="username"]`.
-* `passwordSelecter` - A jQuery selector to match the password field. Defaults to `input[name="password"]`.
+* `usernameSelector` - A jQuery selector to match the username field. Defaults to `input[name="username"]`.
+* `passwordSelector` - A jQuery selector to match the password field. Defaults to `input[name="password"]`.
 * `usernameValue` - The default value for the username field. Defaults to `Username...`.
 * `passwordValue` - The default value for the username field. Defaults to `Password...`.
 
