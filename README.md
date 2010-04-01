@@ -10,11 +10,11 @@ jQuery plugin that provides default values to login forms' username and password
 
 Simple usage:
 
-    $('#my_textarea').smartAssLoginValues();
+    $('#login_form').smartAssLoginValues();
 
 Advanced usage:
 
-    $('#my_textarea').smartAssLoginValues({
+    $('#login_form').smartAssLoginValues({
         usernameSelector: 'input[name="username"]',
         passwordSelector: 'input[name="password"]',
         usernameValue:    'Username...',
