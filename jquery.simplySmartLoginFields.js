@@ -1,9 +1,9 @@
 /*
-* jQuery Smart Ass Login Values plugin
+* jQuery Simply Smart Login Fields plugin
 * Provides default values to login forms' username and password fields
 * 
 * @version  0.1
-* @homepage http://github.com/aaronrussell/jquery-smart-ass-login-values/
+* @homepage http://github.com/aaronrussell/jquery-simply-smart-login-fields/
 * @author   Aaron Russell (http://www.aaronrussell.co.uk)
 *
 * Copyright (c) 2010 Aaron Russell (aaron@gc4.co.uk)
@@ -13,7 +13,7 @@
 
 (function($){
   
-  $.fn.smartAssLoginValues = function(options){
+  $.fn.simplySmartLoginFields = function(options){
     
     options = $.extend({
       usernameSelector: 'input[name="username"]',
