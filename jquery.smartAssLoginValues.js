@@ -22,8 +22,8 @@
       passwordValue:    'Password...'
     }, options);
     
-    var username = this.find(options.usernameSelecter);
-    var password = this.find(options.passwordSelecter);
+    var username = this.find(options.usernameSelector);
+    var password = this.find(options.passwordSelector);
     username.val(options.usernameValue);
     password.hide().after('<input type="text" id="fakepassword" value="'+options.passwordValue+'" />');
     var fakepassword = $('#fakepassword');
